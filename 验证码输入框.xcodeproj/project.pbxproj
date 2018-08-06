@@ -15,6 +15,7 @@
 		F1E1BB682114407F003FED05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E1BB672114407F003FED05 /* main.m */; };
 		F1E1BB722114407F003FED05 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E1BB712114407F003FED05 /* ______Tests.m */; };
 		F1E1BB7D2114407F003FED05 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E1BB7C2114407F003FED05 /* ______UITests.m */; };
+		F1E1BB8C21144117003FED05 /* LQ_PasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E1BB8B21144117003FED05 /* LQ_PasswordView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F1E1BB782114407F003FED05 /* 验证码输入框UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "验证码输入框UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E1BB7C2114407F003FED05 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		F1E1BB7E2114407F003FED05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E1BB8A21144117003FED05 /* LQ_PasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQ_PasswordView.h; sourceTree = "<group>"; };
+		F1E1BB8B21144117003FED05 /* LQ_PasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQ_PasswordView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F1E1BB592114407F003FED05 /* AppDelegate.m */,
 				F1E1BB5B2114407F003FED05 /* ViewController.h */,
 				F1E1BB5C2114407F003FED05 /* ViewController.m */,
+				F1E1BB8A21144117003FED05 /* LQ_PasswordView.h */,
+				F1E1BB8B21144117003FED05 /* LQ_PasswordView.m */,
 				F1E1BB5E2114407F003FED05 /* Main.storyboard */,
 				F1E1BB612114407F003FED05 /* Assets.xcassets */,
 				F1E1BB632114407F003FED05 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				F1E1BB5D2114407F003FED05 /* ViewController.m in Sources */,
 				F1E1BB682114407F003FED05 /* main.m in Sources */,
+				F1E1BB8C21144117003FED05 /* LQ_PasswordView.m in Sources */,
 				F1E1BB5A2114407F003FED05 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LQ_PasswordView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
+    LQ_PasswordView *view = [[LQ_PasswordView alloc]initWithFrame:CGRectMake(63, 100, self.view.frame.size.width-63*2, 40)];
+    view.num = 4;
+    
+    
+    __weak typeof(view)weakSelf = view;
+    view.callBackBlock = ^(NSString *text) {
+        
+        if ([text isEqualToString:@"3456"]) {
+            
+        }else{
+            
+            [weakSelf cleanPassword:@"error"];
+            
+        }
+        
+        NSLog(@"%@",text);
+    };
+    [view showPassword];
+    [self.view addSubview:view];
+    
 }
 
 
